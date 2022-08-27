@@ -1,0 +1,60 @@
+* {
+    font-family: Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+  }
+  
+  #wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  body {
+    background-color: #00dbde;
+    background-image: linear-gradient(90deg, #255f14 0%, #e6ea27 100%);
+  }
+  
+  #title {
+    font-size: 2em;
+  }
+  
+  #score-container {
+    display: flex;
+    margin-bottom: 50px;
+  }
+  
+  #score {
+    padding: 0 10px 0 10px;
+    margin-bottom: 50px;
+  }
+  
+  #options {
+    display: flex;
+    margin-bottom: 50px;
+  }
+  
+  .rock,
+  .paper,
+  .scissors {
+    margin: 10px;
+    background-color: #dddddd;
+    border-color: rgb(100, 99, 99);
+    padding: 10px;
+  }
+  
+  .btn:hover {
+    background-color: white;
+    border-color: rgb(27, 27, 27);
+    transition: all 0.5s;
+    cursor: pointer;
+  }
+  
+  #match {
+    display: flex;
+    margin-bottom: 50px;
+  }
+  
+  #announcement {
+    margin: 25px;
+    font-size: 25px;
+  }
